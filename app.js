@@ -17,6 +17,10 @@ function bad() {
     return 1;
 }
 
+function bad() {
+    return 2
+    return 3
+}
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
